@@ -3,10 +3,10 @@
 
 using namespace std;
 
-class gameproblem
+class gameproblem1
 {
 public:
-	gameproblem()
+	gameproblem1()
 	{
 		cout << endl;
 		cout << "                                            ※게임 문제※                               " << endl;
@@ -23,17 +23,19 @@ public:
 		cout << "10. 고려 제 31대 왕으로 반원 자주 정책을 추진했으며, 신진 세력을 등용하여 권문세족을 누르고 왕권을 강화시키려 한 왕의 이름은 ? " << endl;
 		cout << "11. 동아시아 궁전 건축사에 있어 비정형적 조형미를 간직한 대표적인 궁으로 나라에 전쟁이나 큰 재난이 일어나 공식 궁궐을 사용하지" << endl;;
 		cout << "    못할 때를 대비하여 지은 궁궐이다. 1997년 유네스코가 선정한 세계문화유산으로 등재된 이 궁의 이름은 ? " << endl;
-
-
+		cout << endl;
+		cout << endl;
+		cout << endl;
+		cout << endl;
 	}
 
-	~gameproblem(){}
+	~gameproblem1() {}
 };
 
 int main()
 {
-	gameproblem P;
-	P;
+	gameproblem1 P1;
+	P1;
 
 
 

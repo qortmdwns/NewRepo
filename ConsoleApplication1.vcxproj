@@ -181,7 +181,13 @@
     <ClCompile Include="gameexplain.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="gameproblem.cpp" />
+    <ClCompile Include="gameproblem1.cpp" />
+    <ClCompile Include="gameproblem2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="gameproblem3.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Snack_Candy.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -217,8 +223,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="gameproblem1.h" />
+    <ClInclude Include="gameproblem2.h" />
+    <ClInclude Include="gameproblem3.h" />
     <ClInclude Include="game_explain.h" />
-    <ClInclude Include="gameproblem.h" />
     <ClInclude Include="Snack_Candy.h" />
     <ClInclude Include="Snack_Chocolate.h" />
     <ClInclude Include="star.h" />

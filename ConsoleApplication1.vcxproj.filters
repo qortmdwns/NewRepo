@@ -102,7 +102,13 @@
     <ClCompile Include="gameexplain.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="gameproblem.cpp">
+    <ClCompile Include="gameproblem2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameproblem3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameproblem1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -119,7 +125,13 @@
     <ClInclude Include="game_explain.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="gameproblem.h">
+    <ClInclude Include="gameproblem2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameproblem3.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameproblem1.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
